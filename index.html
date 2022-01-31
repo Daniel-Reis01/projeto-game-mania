@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Mania</title>
+    <link rel="stylesheet" href="css/sttyle.css">
+</head>
+<body>
+    <header>
+        <div class="container-grid">
+            <a href=""><img src="img/gaming-logo-transparent-2-Transparent-Images.png.crdownload" alt="logo do site" width="200px"></a>
+            <nav class="menu">
+                <a href="">inicio</a>
+                <a href="">produtos</a>
+                <a href="">promoçao</a>
+                <a href="">contato</a>
+            </nav>
+            <a href=""onclick="mostrarmenu()" ><img class="barras" src="img/transferir.png" alt="Menu de Barras" color= black></a>
+        </div>
+    </header> 
+    <div class="banner">
+        <div class="container-grid posiçao-texto"></div>
+        <div class="texto-banner">
+            <h1>Game Mania<h1>
+<p>A game mania tem por objetvo trazer mais conforto e conpetitividade para o seu momento de lazer</p>
+<a href="">inscreva-se</a>
+        </div>
+    </div>
+    <section class="promocional">
+<div class="jogos-promoçoes container">
+    <a href=""><img src="img/son_goku_ssj_blue_fase_2_le_by_jaredsongohan_dbn8gzp-300w.png" width="150px" ></a>
+    <a href=""><img src="img/screenshot-www_7kvr.png" width="650px" ></a>
+    <a href=""><img src="img/4f1e6062c2dc708fa8932028a0dcd3b1.png"width="200px" ></a>
+</div>
+    </section>
+    <section class="produtos">
+    </section>
+    <script> 
+    let menu = document.getElementById("menu");
+    function mostrarmenu(){
+if(menu.style.display != "flex"){
+menu.style.display = "flex"
+    }else{
+        menu.style.display = "none"
+    }    
+    }
+</script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
